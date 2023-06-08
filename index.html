@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Моя страница</title>
+  </head>
+  <body>
+    <header class="header" id="start">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid flex-menu">
+            <a class="navbar-brand" href="#"
+              ><img src="./img/LOGO.png" alt="LOGO" class="header-logo"
+            /></a>
+            <div class="header__wrapper">
+              <button
+                class="navbar-toggler bg-light btn-menu"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse nav-menu"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#aboutMe"
+                      >Обо мне</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#myContact">Контакты</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#myResource">Ресурсы</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="page">
+      <section class="promo">
+        <div class="container">
+          <div class="label" id="aboutMe">Обо мне</div>
+          <div class="row row-cols-1 row-cols-sm-2">
+            <div class="col"><img src="./img/avatar.jpg" alt="#" /></div>
+            <div class="col">
+              <h1 class="promo__title">Михайлюк Владимир Михайлович</h1>
+              <div class="promo__desc">
+                Преподаватель ОБЖ/БЖД Воронежского государственного
+                профессионально-педагогического колледжа
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="container">
+          <div class="label" id="myContact">Контакты</div>
+          <div class="contacts__wrapper">
+            <a href="" class="contact">
+              <picture>
+                <source srcset="./img/tg.webp" type="image/webp" />
+                <source srcset="./img/tg.png" type="image/png" />
+                <img src="./img/tg.png" />
+              </picture>
+              Telegram
+            </a>
+            <a href="" class="contact">
+              <picture>
+                <source srcset="./img/wa.webp" type="image/webp" />
+                <source srcset="./img/wa.png" type="image/png" />
+                <img src="./img/wa.png" />
+              </picture>
+              WhatsApp
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="resources">
+        <div class="container">
+          <div class="label" id="myResource">Ресурсы</div>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-5">
+            <a
+              href="./source/Воронежская_область.ppt"
+              download=""
+              class="resource col"
+            >
+              <img src="./img/pptx_icon_(2019).svg.png" alt="#" />
+              <span class="resource__desc">Воронежская область</span>
+            </a>
+            <a
+              href="./source/МУ_по_СРС_для_1_курса_(4_раздела).doc"
+              class="resource col"
+              download=""
+            >
+              <img src="./img/docx_icon.svg.png" alt="#" />
+              <span class="resource__desc"
+                >МУ по СРС для 1 курса (4 раздела)</span
+              >
+            </a>
+            <a
+              href="./source/МУ_по_СРС_для_2-3_курса.doc"
+              class="resource col"
+              download=""
+            >
+              <img src="./img/docx_icon.svg.png" alt="#" />
+              <span class="resource__desc">МУ по СРС для 2-3 курса</span>
+            </a>
+            <a
+              href="./source/Способы_защиты_от_ЧС.ppt"
+              class="resource col"
+              download=""
+            >
+              <img src="./img/pptx_icon_(2019).svg.png" alt="#" />
+              <span class="resource__desc">Способы защиты от ЧС</span>
+            </a>
+            <a
+              href="./source/МУ_по_СРС_для_заочников.doc"
+              class="resource col"
+              download=""
+            >
+              <img src="./img/docx_icon.svg.png" alt="#" />
+              <span class="resource__desc">МУ по СРС для заочников</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <p class="float-end"><a href="#start" class="color_text">К началу</a></p>
+        <div class="footer-text">
+          <div><img src="./img/LOGO.png" alt="LOGO" class="header-logo" /></div>
+          <div class="contacts__footer">
+            Контакты:
+            <a href="" class="contact contact-footer">
+              <picture>
+                <source srcset="./img/tg.webp" type="image/webp" />
+                <source srcset="./img/tg.png" type="image/png" />
+                <img src="./img/tg.png" />
+              </picture>
+            </a>
+            <a href="" class="contact contact-footer">
+              <picture>
+                <source srcset="./img/wa.webp" type="image/webp" />
+                <source srcset="./img/wa.png" type="image/png" />
+                <img src="./img/wa.png" />
+              </picture>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./js/sctipt.js"></script>
+</html>
